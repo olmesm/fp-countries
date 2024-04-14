@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "bunx patch-package"
   },
   "devDependencies": {
     "@types/hyperscript": "^0.0.7",
@@ -15,6 +16,8 @@
   },
   "dependencies": {
     "@mobily/ts-belt": "next",
-    "hyperscript": "^2.0.2"
+    "destr": "^2.0.3",
+    "hyperscript": "^2.0.2",
+    "match-iz": "^4.0.3"
   }
 }
